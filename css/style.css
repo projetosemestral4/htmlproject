@@ -48,7 +48,25 @@ Table of Content:
   margin-right: 8.33333333%;
 }
 
-/*---------------------------------------------------- */
+/*INSERIR ANIMAÇÕES CSS AQUI*/
+.container .hostinge_s_inner h3{
+  animation-name: rollIn;
+	animation-duration: 1.9s;
+} 
+
+.container .hostinge_s_inner h4{
+  animation-name: rollIn;
+	animation-duration: 1.5s;
+} 
+
+.container .hostinge_s_inner p{
+  animation-name: rollIn;
+	animation-duration: 1s;
+} 
+
+/*----------------------------------------------------*/
+
+/*----------------------------------------------------*/
 /*----------------------------------------------------*/
 ul {
   list-style: none;
