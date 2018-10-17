@@ -15,6 +15,9 @@
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- AOS-Animation -->
+        <link href="vendors/aos-animation/dist/aos.css" rel="stylesheet">
         
         <!-- Rev slider css -->
         <link href="vendors/revolution/css/settings.css" rel="stylesheet">
@@ -91,20 +94,20 @@
         
         <!--================Hosting Slider Area =================-->
         <section class="hostinge_slider_area" id="home">
-            <div id="main_slider2" class="rev_slider" data-version="5.3.1.6">
+            <div id="main_slider2" class="rev_slider" data-version="5.3.1.6" data-parallax='{"z": 90}'>
                 <ul>
                     <li data-index="rs-1587" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="img/home-slider/hosting-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="img/home-slider/hosting-1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                     </li>
                 </ul>
             </div>
             <div class="hosting_search_area">
                 <div class="container">
                     <div class="hostinge_s_inner">
-                        <h3>Data-N Network Structure for Business</h3>
-                        <h4>From the Physical Structure of Servers to the Clouds</h4>
-                        <p>Solutions in Network Structures <br /> and Cloud for your business.</p>
+                        <h3 data-parallax='{"z": -600}'>Data-N Network Structure for Business</h3>
+                        <h4 data-parallax='{"z": -400}'>From the Physical Structure of Servers to the Clouds</h4>
+                        <p data-parallax='{"z": -200}'>Solutions in Network Structures <br /> and Cloud for your business.</p>
                     </div>
                 </div>
             </div>
@@ -165,8 +168,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="server_right_img">
+                    <div class="col-md-5 aos-item" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="server_right_img aos-item__inner">
                             <img src="img/server-1.png" alt="">
                         </div>
                     </div>
@@ -179,8 +182,8 @@
         <section class="hosting_service_area">
             <div class="container">
                 <div class="row hosting_service_inner">
-                    <div class="col-md-6">
-                        <div class="h_service_left">
+                    <div class="col-md-6 aos-item" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="h_service_left aos-item__inner">
                             <img src="img/hosting-service-1.png" alt="">
                         </div>
                     </div>
@@ -393,7 +396,7 @@
                 <div class="row popular_service_inner">
                     <div class="col-md-6">
                         <div class="popular_s_img">
-                            <img src="img/service/popular-s-hos.png" alt="">
+                            <img src="img/service/popular-s-hos.png" data-parallax='{"rotateY": 1000}' alt="">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -614,10 +617,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         
         
-        
-        
-        
-        
+        <!-- Incluindo biblioteca de animação aos.js -->
+        <script src="vendors/aos-animation/dist/aos.js"></script>
+        <script>
+            AOS.init({
+              easing: 'ease-in-out-sine'
+            });
+        </script>
         
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
