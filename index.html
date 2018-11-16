@@ -95,6 +95,7 @@
 							<li class="active"><a href="#home">Home</a></li>
 							<li><a href="#hosting">Serviços</a></li>
 							<li><a href="#feature">Features</a></li>
+							<li><a href="#video">Vídeo</a></li>
 							<li><a href="#preco">Pricing Table</a></li>
 							<li><a href="#service">Serviços</a></li>
 							<li><a href="#contact">Contato</a></li>
@@ -435,20 +436,17 @@
 	</section>
 	<!--================End Great Feature Area =================-->
 
-	<!--================River Video Area =================-->
-	<section class="river_video_area">
+	<!--================ AREA DO VIDEO =================-->
+	<section class="river_video_area" id="video">
 		<div class="container">
 			<h2 class="video_cabecalho" aos-item" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-quad">Conheça
 				a estrutura de um Data Center</h2>
 			<div class="video_datan">
-				<video width="70%" controls>
-					<source src="img/video/Inside a Google data center.MP4" type="video/mp4">
-					Your browser does not support HTML5 video.
-				</video>
+				<iframe width="100%" height="550" src="https://www.youtube.com/embed/XZmGGAbHqa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
-	<!--================End River Video Area =================-->
+	<!--================ FIM DA AREA DO VIDEO =================-->
 
 	<!--================Server Price Area =================-->
 	<div class="server_price_area" id="preco">
@@ -673,7 +671,7 @@
 					Deixe os seus dados e nos informe sobre o que sua empresa necessita <br />Temos uma equipe pronta para te atender, deixe seu contato queretornaremos em seguida.</p>
 			</div>
 			<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-				<h3 class="form-group col-md-12">Dados Pessoais:</h3>
+				<h3 class="form-group col-md-12" style="color:#26547C">Dados Pessoais:</h3>
 				<div class="form-group col-md-6">
 					<input type="text" class="form-control" id="name" name="name" placeholder="Nome*">
 				</div>
@@ -689,7 +687,7 @@
 				<div class="form-group col-md-4">
 					<input type="email" class="form-control" id="email" name="email" placeholder="Email*">
 				</div>
-				<h3 class="form-group col-md-12">Sua Empresa:</h3>
+				<h3 class="form-group col-md-12" style="color:#26547C">Sua Empresa:</h3>
 				<div class="form-group col-md-8">
 					<input type="text" class="form-control" id="nomeempresa" name="nomeempresa" placeholder="Nome da Empresa*">
 				</div>
@@ -702,7 +700,7 @@
 				<div class="form-group col-md-8">
 						<input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereço*">
 				</div>
-				<h3 class="form-group col-md-12">Quail o serviço que deseja contratar?</h3>
+				<h3 class="form-group col-md-12" style="color:#26547C">Quais os serviços que deseja contratar?</h3>
 				<div class="form-group col-md-3">
 						<input list="contservicos1" name="contservicos1" placeholder="Implementação*">
 							<datalist id="contservicos1">
@@ -744,7 +742,7 @@
 							</datalist>
 				</div>
 				
-				<h3 class="form-group col-md-12">Selecione a melhor data e horário para entrarmos em contato com você:</h3>
+				<h3 class="form-group col-md-12" style="color:#26547C">Selecione a melhor data e horário para entrarmos em contato com você:</h3>
 				<div class="form-group col-md-6">
 						DATA:<input type="date" class="form-control" id="bday" name="bday">
 				</div>
