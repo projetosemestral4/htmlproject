@@ -160,9 +160,9 @@ a:hover, a:focus {
 
 body {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
-  color: #6b6d6f;
+  color: #6d89a1;
 }
 
 body, p, h1, h2, h3, h4, h5, h6 {
@@ -420,7 +420,7 @@ iframe {
 }
 
 .server_title p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #6d89a1;
   font-family: "Heebo", sans-serif;
@@ -10392,7 +10392,7 @@ iframe {
 }
 
 .server_left_text .media .media-body p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #9baebf;
   font-family: "Heebo", sans-serif;
