@@ -48,9 +48,73 @@ Table of Content:
   margin-right: 8.33333333%;
 }
 
+
+/* NOVOS ESTILOS DAS SEÇÕES CRIADAS
+============================================================================================*/
+
+/*====== AREA DOS EQUIPAMENTOS ======*/
+.equipament_area_box{
+  background-color: #265074;
+  
+}
+
+.equipament_area{
+  padding: 100px 0;
+}
+
+.equipament_area p{
+  color: #fff;
+}
+
+.equipament_area h1{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.equipament_area h2{
+  color: #fff;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+/*====== AREA DOS SERVIDORES ======*/
+.servers_area_box{
+  background-color: #fff;
+  
+}
+
+.servers_area{
+  padding: 100px 0;
+}
+
+.servers_area p{
+ 
+}
+
+.servers_area h1{
+  color: #26547C;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.servers_area h2{
+  color: #26547C;
+  font-weight:lighter;
+  text-align: center;
+}
+
+
+
+
+/*============================================================================================ */
+
+
+
 /*INSERIR ANIMAÇÕES CSS AQUI*/
-
-
 /*----------------------------------------------------*/
 
 .video_datan video{
@@ -68,6 +132,8 @@ Table of Content:
 
 
 /*----------------------------------------------------*/
+
+
 /*----------------------------------------------------*/
 ul {
   list-style: none;
@@ -1013,11 +1079,11 @@ iframe {
 }
 
 .hosting_main_menu .navbar.navbar-default .nav.navbar-nav {
-  padding-left: 145px;
+  padding-left: 60px;
 }
 
 .hosting_main_menu .navbar.navbar-default .nav.navbar-nav li {
-  margin-right: 26px;
+  margin-right: 22px;
 }
 
 .hosting_main_menu .navbar.navbar-default .nav.navbar-nav li a {
@@ -10387,6 +10453,7 @@ iframe {
 .popular_service_area {
   overflow: hidden;
   background: #f6f7fa;
+  padding: 80px 0;
 }
 
 .popular_service_inner .popular_s_img {
@@ -10500,6 +10567,7 @@ iframe {
 ============================================================================================ */
 .read_latest_news {
   padding: 100px 0px;
+  background-color: #335E84;
 }
 
 .r_l_news_item .r_news_img img {
@@ -10516,7 +10584,7 @@ iframe {
 
 .r_l_news_item .r_news_text .r_date .pull-left h6 {
   font-size: 14px;
-  color: #9baebf;
+  color: #fff;
   font-family: "Heebo", sans-serif;
   letter-spacing: .28px;
   padding-top: 4px;
@@ -10524,7 +10592,7 @@ iframe {
 
 .r_l_news_item .r_news_text .r_date .pull-left h6 span {
   font-weight: bold;
-  color: #6d89a1;
+  color: #fff;
 }
 
 .r_l_news_item .r_news_text .r_date .pull-right a {
@@ -10533,7 +10601,7 @@ iframe {
   width: 20px;
   text-align: center;
   border: 1px solid #6d89a1;
-  color: #6d89a1;
+  color: #fff;
   line-height: 19px;
 }
 
@@ -10545,13 +10613,13 @@ iframe {
   font-size: 14px;
   line-height: 28px;
   font-family: "Heebo", sans-serif;
-  color: #6d89a1;
+  color: #fff;
   letter-spacing: .28px;
   padding: 20px 0px;
 }
 
 .r_news_more {
-  color: #26547c;
+  color: #fff;
   font-size: 14px;
   font-family: "Heebo", sans-serif;
   font-weight: bold;
