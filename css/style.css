@@ -53,13 +53,41 @@ Table of Content:
 ============================================================================================*/
 
 /*====== AREA DOS EQUIPAMENTOS ======*/
+.equipModernBox{
+  background-color: #fff;
+  height: 480px;
+  width: 360px;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: 4px 4px 31px 1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 4px 4px 31px 1px rgba(0,0,0,0.45);
+  box-shadow: 4px 4px 31px 1px rgba(0,0,0,0.45);
+}
+
+.imagem-fundo-equipamentos1{
+  background-image: url("../img/revolution-images/FTP.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 210px;
+}
+
+.equip-content-text{
+  margin: 20px 15px 5px 15px;
+}
+
 .equipament_area_box{
   background-color: #265074;
-  
 }
 
 .equipament_area{
-  padding: 100px 0;
+
 }
 
 .equipament_area p{
@@ -5758,23 +5786,81 @@ iframe {
 ============================================================================================ */
 /* Server Price Area css
 ============================================================================================ */
+.image-box-equip1{
+  background-image: url("../img/revolution-images/FTP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-equip2{
+  background-image: url("../img/revolution-images/Proxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-equip3{
+  background-image: url("../img/revolution-images/Servidor-Jogos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-equip4{
+  background-image: url("../img/revolution-images/Web-Hosting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-equip5{
+  background-image: url("../img/revolution-images/Servidor-email.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-equip6{
+  background-image: url("../img/revolution-images/Dns.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
 .server_price_area {
   padding: 100px 0px;
 }
 
 .server_price_item {
   text-align: center;
+  margin-bottom: 35px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(6, 83, 129, 0.26);
   box-shadow: 0px 0px 5px 0px rgba(6, 83, 129, 0.26);
 }
 
 .server_price_item .pirce_head {
   text-align: center;
-  background: #065381;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  min-height: 155px;
-  padding-top: 28px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  min-height: 210px;
 }
 
 .server_price_item .pirce_head h4 {
@@ -5786,7 +5872,7 @@ iframe {
 }
 
 .server_price_item .pirce_body {
-  border-bottom: 3px solid #064f7d;
+
 }
 
 .server_price_item .pirce_body h5 {
@@ -5839,7 +5925,7 @@ iframe {
 }
 
 .server_price_item.prime .pirce_head {
-  background: #ff9600;
+
 }
 
 .server_price_item.prime .pirce_head h6 {
@@ -5865,11 +5951,11 @@ iframe {
 }
 
 .server_price_item.ultimate .pirce_head {
-  background: #2fd2f0;
+
 }
 
 .server_price_item.ultimate .pirce_body {
-  border-bottom: 3px solid #2fd2f0;
+
 }
 
 .price_item2 h2 {
