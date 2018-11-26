@@ -135,7 +135,9 @@ Table of Content:
   text-align: center;
 }
 
-
+.link-color-service:hover{
+  color: #ff9600;
+}
 
 
 /*============================================================================================ */
@@ -369,6 +371,68 @@ iframe {
 }
 
 /* End Main Title css
+============================================================================================ */
+/* Area Serviços na Nuvem css
+============================================================================================ */
+.image-box-nuvem1{
+  background-image: url("../img/revolution-images/Nuvem02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-nuvem2{
+  background-image: url("../img/revolution-images/Nuvem01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-nuvem3{
+  background-image: url("../img/revolution-images/Nuvem03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.nuvem_area_box{
+  background-color: #335E84;
+}
+
+.image-box-servidores1{
+  background-image: url("../img/revolution-images/Online.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-servidores2{
+  background-image: url("../img/revolution-images/24horas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.image-box-servidores3{
+  background-image: url("../img/revolution-images/Garantia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+/* End Area Serviços na Nuvem css
 ============================================================================================ */
 /* Left Title css
 ============================================================================================ */
@@ -5852,8 +5916,18 @@ iframe {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(6, 83, 129, 0.26);
-  box-shadow: 0px 0px 5px 0px rgba(6, 83, 129, 0.26);
+  box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+  -moz-box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+}
+
+.server_price_item:hover{
+  box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
+  -moz-box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
+  -webkit-transition: all 200ms linear 0s;
+  -o-transition: all 200ms linear 0s;
+  transition: all 200ms linear 0s;
 }
 
 .server_price_item .pirce_head {
@@ -5917,11 +5991,34 @@ iframe {
   line-height: 44px;
   letter-spacing: .32px;
   border-radius: 22px;
+  -webkit-transition: all 200ms linear 0s;
+  -o-transition: all 200ms linear 0s;
+  transition: all 200ms linear 0s;
+  box-shadow: 1px 8px 28px -6px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 1px 8px 28px -6px rgba(0,0,0,0.8);
+  -moz-box-shadow: 1px 8px 28px -6px rgba(0,0,0,0.8);
+}
+
+.server_price_item .pirce_body .pirce_footer a:hover{
+  background: #FF9600;
+  box-shadow: 1px 8px 18px -7px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 1px 8px 18px -7px rgba(0,0,0,0.8);
+  -moz-box-shadow: 1px 8px 18px -7px rgba(0,0,0,0.8);
 }
 
 .server_price_item.prime {
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 150, 0, 0.26);
-  box-shadow: 0px 0px 5px 0px rgba(255, 150, 0, 0.26);
+  box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+  -moz-box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+}
+
+.server_price_item.prime:hover {
+  -webkit-transition: all 200ms linear 0s;
+  -o-transition: all 200ms linear 0s;
+  transition: all 200ms linear 0s;
+  box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
+  -moz-box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
 }
 
 .server_price_item.prime .pirce_head {
@@ -5946,8 +6043,18 @@ iframe {
 }
 
 .server_price_item.ultimate {
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(47, 210, 240, 0.26);
-  box-shadow: 0px 0px 5px 0px rgba(47, 210, 240, 0.26);
+  box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+  -moz-box-shadow: 1px 8px 42px -3px rgba(0,0,0,0.38);
+}
+
+.server_price_item.ultimate:hover {
+  -webkit-transition: all 200ms linear 0s;
+  -o-transition: all 200ms linear 0s;
+  transition: all 200ms linear 0s;
+  box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
+  -moz-box-shadow: 1px 8px 16px -4px rgba(0,0,0,0.38);
 }
 
 .server_price_item.ultimate .pirce_head {
@@ -10500,6 +10607,10 @@ iframe {
 ============================================================================================ */
 /* Hosting Service Area css
 ============================================================================================ */
+.h_service_right .h_service_list .media a:hover {
+  color: #fff;
+}
+
 .hosting_service_area {
   padding-bottom: 100px;
   margin-top: 6%;
@@ -10516,6 +10627,16 @@ iframe {
 .h_service_right .h_service_list .media {
   background: #f6f7fa;
   padding: 12px 0px 12px 30px;
+}
+
+.h_service_right .h_service_list .media:hover {
+  background: #93C1E0;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+  -webkit-box-shadow: 0px 12px 22px -5px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 12px 22px -5px rgba(0,0,0,0.25);
+  box-shadow: 0px 12px 22px -5px rgba(0,0,0,0.25);
 }
 
 .h_service_right .h_service_list .media .media-left {
@@ -10560,7 +10681,7 @@ iframe {
 
 .popular_service_inner .popular_s_text a {
   padding: 0px 25px;
-  background: #ff9600;
+  background: #6d89a1;
   line-height: 40px;
   color: #fff;
   text-align: center;
@@ -10570,14 +10691,21 @@ iframe {
   font-family: "Heebo", sans-serif;
   font-weight: bold;
   letter-spacing: .28px;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
+  -webkit-transition: all 200ms linear 0s;
+  -o-transition: all 200ms linear 0s;
+  transition: all 200ms linear 0s;
+  box-shadow: 1px 8px 28px -6px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 1px 8px 28px -6px rgba(0,0,0,0.8);
+  -moz-box-shadow: 1px 8px 28px -6px rgba(0,0,0,0.8);
 }
 
 .popular_service_inner .popular_s_text a:hover {
   -webkit-box-shadow: 0px 5px 24px 0px rgba(255, 150, 0, 0.16);
   box-shadow: 0px 5px 24px 0px rgba(255, 150, 0, 0.16);
+  background: #FF9600;
+  box-shadow: 1px 8px 18px -7px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 1px 8px 18px -7px rgba(0,0,0,0.8);
+  -moz-box-shadow: 1px 8px 18px -7px rgba(0,0,0,0.8);
 }
 
 .popular_service_inner .popular_s_text h5 {
